@@ -371,6 +371,11 @@ dependencies {
     implementation 'com.airbnb.android:lottie:6.0.0'
 
     debugImplementation "com.squareup.leakcanary:leakcanary-android:2.10"
+
+    // for supporting surface duo and other fancy screen setups
+    implementation "androidx.window:window:1.0.0"
+    implementation "androidx.window:window-java:1.0.0"
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.5.1"
 }
 
 ksp {
